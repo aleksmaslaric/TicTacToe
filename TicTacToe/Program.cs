@@ -40,14 +40,14 @@ namespace TicTacToe
                 char[] charsIgralca = { 'X', 'O' };
                 foreach(char charIgralca in charsIgralca)
                 {
-                    if (((igralnoPolje[0,0] == charIgralca) && (igralnoPolje[0,1] == charIgralca) && (igralnoPolje[0,2] == charIgralca)) 
-                        || ((igralnoPolje[1, 0] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[1, 2] == charIgralca)) 
-                        || ((igralnoPolje[2, 0] == charIgralca) && (igralnoPolje[2, 1] == charIgralca) && (igralnoPolje[2, 2] == charIgralca))
-                        || ((igralnoPolje[0, 0] == charIgralca) && (igralnoPolje[1, 0] == charIgralca) && (igralnoPolje[2, 0] == charIgralca))
-                        || ((igralnoPolje[0, 1] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[2, 1] == charIgralca))
-                        || ((igralnoPolje[0, 2] == charIgralca) && (igralnoPolje[2, 1] == charIgralca) && (igralnoPolje[2, 2] == charIgralca))
-                        || ((igralnoPolje[0, 0] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[2, 2] == charIgralca))
-                        || ((igralnoPolje[0, 2] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[2, 0] == charIgralca))
+                    if (((igralnoPolje[0,0] == charIgralca) && (igralnoPolje[0,1] == charIgralca) && (igralnoPolje[0,2] == charIgralca)) // 123
+                        || ((igralnoPolje[1, 0] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[1, 2] == charIgralca)) // 456
+                        || ((igralnoPolje[2, 0] == charIgralca) && (igralnoPolje[2, 1] == charIgralca) && (igralnoPolje[2, 2] == charIgralca)) // 789
+                        || ((igralnoPolje[0, 0] == charIgralca) && (igralnoPolje[1, 0] == charIgralca) && (igralnoPolje[2, 0] == charIgralca)) // 147
+                        || ((igralnoPolje[0, 1] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[2, 1] == charIgralca)) // 258
+                        || ((igralnoPolje[0, 2] == charIgralca) && (igralnoPolje[1, 2] == charIgralca) && (igralnoPolje[2, 2] == charIgralca)) // 369
+                        || ((igralnoPolje[0, 0] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[2, 2] == charIgralca)) // 159
+                        || ((igralnoPolje[0, 2] == charIgralca) && (igralnoPolje[1, 1] == charIgralca) && (igralnoPolje[2, 0] == charIgralca)) // 357
                         )
                     {
                         if (charIgralca == 'X')
